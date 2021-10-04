@@ -1,0 +1,15 @@
+.filter-header {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 15px;
+    background-color: #fafafa;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid rgb(244, 244, 244);
+    border-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    color: #727272;
+}

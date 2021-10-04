@@ -1,0 +1,32 @@
+.table-row {
+    border-top: 2px solid rgb(244, 244, 244);
+    display: grid;
+    grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.8fr) minmax(0, 1.2fr)
+    minmax(0, 1.2fr)
+    minmax(0, 0.8fr)
+    minmax(0, 0.9fr)
+    minmax(0, 1fr)
+    minmax(0, 0.9fr) minmax(0, 1.5fr) minmax(0, 0.8fr);
+    justify-items: start;
+    align-items: center;
+    color: #727272;
+}
+
+.table-row .id-div {
+    padding-left: 15px;
+}
+
+.table-row:nth-child(2n+1) {
+    background: #fafafa;
+}
+
+.action-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 1.5em;
+}

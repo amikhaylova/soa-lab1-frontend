@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria;
+    /*color: #727272;*/
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.app {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(0, 0.5fr) minmax(0, 15fr) minmax(0, 0.5fr);
+}
+
+.base {
+    height: 50px;
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.error {
+    color: #ec5252;
+    align-self: start;
+}
+
+.input-box {
+    display: grid;
+    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin-bottom: 5px;
+    /* min-height: 95px;*/
+}
+
+.input-box input {
+    height: 40px;
+    align-self: start;
+}
+
+.input-box input, select {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    align-self: end;
+}
+
+.input-box .label {
+    align-self: start;
+}
+
+.label {
+    align-self: end;
+    font-size: 1.1em;
+    /* font-weight: bold;*/
+    /*  padding-left: 10px;*/
+}
+
+input, textarea, select {
+    padding: 10px;
+    border: 1px solid #e5e7ea;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+.input-error {
+    border: 1px solid #ec5252;
+}
+
+button {
+    background-color: #4683de;
+    border-width: 0;
+    color: white !important;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #095ad2;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.tasks-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+.icon-but {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 7px;
+}
+
+.icon-but > .icon {
+    padding-top: 5px;
+}

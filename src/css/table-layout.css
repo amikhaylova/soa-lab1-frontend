@@ -1,0 +1,46 @@
+.table-layout {
+    grid-column: 2/3;
+    margin-top: 25px;
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    grid-row-gap: 10px;
+    color: #727272;
+}
+
+.task-layout {
+    grid-column: 2/3;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #727272;
+}
+
+.add-select {
+    height: 40px;
+    width: min-content;
+}
+
+.add-input {
+    height: 40px;
+    width: 90px;
+}
+
+.add-task-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.answer {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.back-movie-but {
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+}

@@ -1,0 +1,10 @@
+export const SET_PER_PAGE = 'SET_PER_PAGE';
+export const SET_CUR_PAGE = 'SET_CUR_PAGE';
+export const SET_CUR_CRITERION = 'SET_CUR_CRITERION';
+export const SET_ITEM_COUNT = 'SET_ITEM_COUNT';
+export const DELETE_MOVIE = 'DELETE_MOVIE';
+export const SET_SORT = 'SET_SORT';
+export const REMOVE_SORT = 'REMOVE_SORT';
+export const SHOW_MODAL = 'SHOW_MODAL';
+export const SET_FILTER = 'SET_FILTER';
+export const REMOVE_FILTER = 'REMOVE_FILTER';

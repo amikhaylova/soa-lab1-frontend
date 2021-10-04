@@ -1,0 +1,4 @@
+.movie-table {
+    display: grid;
+    grid-template-rows: repeat(10, min-content);
+}
